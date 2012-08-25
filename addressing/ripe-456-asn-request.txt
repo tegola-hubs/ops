@@ -21,20 +21,20 @@ x-ncc-regid:
 %
 % Who will use the AS Number being requested?
 
-legal-organisation-name:      
-website-if-available: 
+legal-organisation-name:      University of Edinburgh
+website-if-available: 	      http://www.ed.ac.uk/
 
 % Is this request being sent by a sponsoring LIR on behalf of an 
 % End User? (Yes/No)
 
-end-user-of-sponsoring-lir: 
+end-user-of-sponsoring-lir:   Yes
 
 % If yes, please confirm that the "End User Assignment Agreement" 
 % contains all of the elements listed in paragraph 2.0 of 
 % "Contractual Requirements for Provider Independent Resource Holders 
 % in the RIPE NCC Service Region". (Yes/No)
 
-confirmation:
+confirmation: 	  	      Yes
 
 #[ADDRESS SPACE TO BE ANNOUNCED]#
 %
@@ -52,8 +52,8 @@ pending-ticket-ID:
 % Please list the email contact addresses of peering 
 % partners for the requested AS Number.
 
-peering:
-peering:
+peering:   operations@ja.net
+peering:   xxx@aa.net.uk
 
 #[SUPPLEMENTAL COMMENTS]#
 %
@@ -61,13 +61,11 @@ peering:
 % this request.
 
 
-
 % If you require a 16-bit AS Number instead of a 32-bit AS Number, 
 % please indicate this below and tell us why. For more information,
 % see http://www.ripe.net/news/asn-32-guide.html
 
-AS Number Type: 32-bit [change as required]
-
+AS Number Type: 32-bit
 Why 16-bit:
 
 #[SUPPORTING DOCUMENTATION]#
@@ -87,18 +85,17 @@ file-attached:
 % Please complete all of the fields below
 
 aut-num:       ASNEW 
-as-name:       <add name for the AS>
-descr:         <add AS Number User name>
-org:           <add org-ID>
-import:        <specify the outgoing routing policy for the first peer>
-export:        <specify the incoming routing policy for the first peer>  
-import:        <specify the outgoing routing policy for the second peer>
-export:        <specify the incoming routing policy for the second peer>   
-admin-c:       <add nic-handle of administrative contact>
-tech-c:        <add nic-handle of technical contact>
+as-name:       HUBS
+descr:         High-Speed Universal Broadband for Scotland
+import:        from AS20712 accept ANY
+export:        to AS20712 announce AS-HUBS
+import:        from AS786 accept ANY
+export:        to AS20712 announce AS-HUBS
+admin-c:       XX-WW-RIPE
+tech-c:        XX-WW-RIPE
 mnt-by:        RIPE-NCC-END-MNT
-mnt-by:        <add mntner name>
-mnt-routes:    <add mntner name>
+mnt-by:        HUBS
+mnt-routes:    HUBS
 changed:       hostmaster@ripe.net
 source:        RIPE
 
