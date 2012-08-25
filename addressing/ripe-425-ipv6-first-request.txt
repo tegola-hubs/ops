@@ -1,0 +1,92 @@
+% IPv6 First Allocation Request Form
+
+% RIPE NCC members can use this form to request their first IPv6 Allocation.
+% Please see http://www.ripe.net/ripe/docs/ipv6-first-alloc-support.html 
+% for instructions on how to complete this form.
+
+#[GENERAL INFORMATION]#
+%
+% Please add your RegID.
+
+request-type: ipv6-first-alloc
+form-version: 1.1
+x-ncc-regid: 
+
+#[REQUESTER TEMPLATE]#
+%
+% Please add your contact details.
+
+name: 
+phone: 
+fax-no: 
+e-mail: 
+nic-hdl:
+
+#[REQUIRED INFORMATION]#
+%
+% Do you accept the IPv6 Address Allocation and Assignment
+% Policy? (Yes/No)
+
+confirmation:
+
+% If you have any online information about your future
+% IPv6 services, please add the URL below.
+
+website:
+
+#[OVERVIEW OF ORGANISATION TEMPLATE]#
+%
+% Please add a short description of your organisation.
+
+org-description:
+
+% If your organisation has IPv6 allocations from any of the Regional
+% Internet Registries (RIR), please list the ranges below.
+
+other-allocation:
+
+% Will the whole organisation use the requested allocation? If
+% another part of the organisation will request separate IPv6
+% address space from any RIR, please inform us below. (Whole/Part)
+
+for-whole-or-part-of-the-organisation:
+
+#[IPv6 ALLOCATION USAGE PLAN]#
+%
+% When will you use this address space?
+%
+%       Subnet       Within     Within   Within
+%       size (/nn)   3 months   1 year   2 years   Purpose
+
+subnet:
+subnet:
+
+#[DATABASE TEMPLATE(S)]#
+%
+% Please complete all of the fields below.
+% 
+% You can find more information on how to complete these fields
+% in the supporting notes (ipv6-first-alloc-support.html). 
+
+inet6num:   <leave empty>
+netname:    <leave empty>
+descr:      <add LIR organisation name> 
+country:    <add country code>
+org:	    <add org-ID>
+admin-c:    <add nic-hdl of administrative contact>
+tech-c:     <add nic-hdl of technical contact>
+status:     ALLOCATED-BY-RIR
+mnt-by:     RIPE-NCC-HM-MNT 
+mnt-lower:  <add mntner name>
+mnt-routes: <add mntner name>
+notify:     <add email address>
+changed:    hostmaster@ripe.net
+source:     RIPE 
+
+#[INSERT SUPPLEMENTAL COMMENTS]#
+%
+% Please add more information if you have specific addressing needs.
+
+<add more information>
+
+#[END of REQUEST]#
