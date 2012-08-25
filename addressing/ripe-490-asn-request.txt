@@ -1,0 +1,137 @@
+% Provider Independent (PI) Assignment Request Form
+
+% RIPE NCC members (LIRs) and Direct Assignment Users can use this form
+% to request a PI assignment. Please see "Supporting Notes for the 
+% Provider Independent (PI) Assignment Request Form" for instructions on 
+% how to complete this form.
+% http://www.ripe.net/ripe/docs/pi-requestsupport.html
+%
+% Please note that the End User should have a signed "End User 
+% Assignment Agreement" with either the sponsoring LIR or the RIPE NCC.
+
+#[GENERAL INFORMATION]#
+%
+% Please add your RegID.
+
+request-type: pi-ipv4
+form-version: 1.3
+x-ncc-regid: 
+
+#[ADDRESS SPACE USER]#
+%
+% Who will use the requested address space?
+
+legal-organisation-name:      
+organisation-location: 
+website-if-available: 
+
+% Is this request being sent by a sponsoring LIR on behalf of 
+% an End User? (Yes/No)
+
+end-user-of-sponsoring-lir: 
+
+% If yes, please confirm that the "End User Assignment Agreement" 
+% contains all of the elements listed in paragraph 2.0 of "Contractual
+% Requirements for Provider Independent Resource Holders in the 
+% RIPE NCC Service Region".(Yes/No)
+
+confirmation:
+
+% Does this End User already have address space that can be used for 
+% this assignment? (Yes/No)
+
+space-available: 
+
+#[INITIAL INFORMATION]#
+%
+% Why is PI address space required rather than PA address space?
+
+why-pi:
+
+% Is the End User requesting extra address space for routing and/or 
+% administrative reasons? (Yes/No)
+
+routing-reasons:
+
+% Is the End User aware of the consequences and disadvantages 
+% of PI address space? (Yes/No)
+
+confirmation:
+
+
+#[ADDRESSING PLAN]#
+% As of 1 January 2010 assignments are for a period of up to 12 months.
+% As of 1 July 2010 assignments are for a period of up to 9 months.
+% As of 1 January 2011 assignments are for a period of up to 6 months.
+% As of 1 July 2011 assignments are for a period of up to 3 months.%
+% How will the End User use this address space?
+%
+%       Subnet       Immediate    Intermediate  Entire   Purpose
+%       size (/nn)   Requirement  Requirement   Period
+
+subnet:
+subnet:
+totals:
+
+number-of-subnets: 
+
+% Will the End User return any address space?
+
+address-space-returned: 
+
+#[EQUIPMENT DESCRIPTION]#
+%
+% What equipment will be used and how will it use the requested
+% address space?
+
+equipment-name:
+manufacturer-name:
+model-number:
+other-data:
+
+equipment-name:
+manufacturer-name:
+model-number:
+other-data:
+
+#[NETWORK DESCRIPTION]#
+%
+% Please add more information if you think it will help us understand
+% this request.
+
+<add more information>
+
+#[SUPPORTING DOCUMENTATION]#
+%
+% If this request is being sent by a sponsoring LIR on behalf of 
+% an End User, please attach a copy of the signed "End User Assignment
+% Agreement" and the company registration papers of the End User.
+% You can also attach a network diagram or other supporting 
+% documentation.
+%
+% Have you attached any files/documents to this request? (Yes/No)
+
+file-attached:
+
+#[DATABASE TEMPLATE(S)]#
+%
+% Please complete all of the fields below. 
+
+inetnum:       <leave empty>
+netname:       <add netname>
+descr:         <add End User organisation name>
+country:       <add country code>
+org:           <add org-ID>
+admin-c:       <add nic-handle of administrative contact>
+tech-c:        <add nic-handle of technical contact>
+status:        ASSIGNED PI
+mnt-by:        RIPE-NCC-END-MNT
+mnt-lower:     RIPE-NCC-END-MNT
+mnt-by:        <add mntner name>
+mnt-routes:    <add mntner name>
+mnt-domains:   <add mntner name>
+changed:       hostmaster@ripe.net
+source:        RIPE
+
+
+#[END of REQUEST]#
