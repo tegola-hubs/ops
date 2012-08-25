@@ -1,0 +1,105 @@
+% AS Number Request Form
+
+% RIPE NCC members (LIRs) and Direct Assignment Users can use this form
+% to request an Autonomous System (AS) Number. For instructions on how to
+% complete this form see:
+%"Supporting Notes for the Autonomous System Number Request Form"
+% http://www.ripe.net/ripe/docs/asnsupport.html
+%
+% Please note that the End User should have a signed "End User 
+% Assignment Agreement" with either the sponsoring LIR or the RIPE NCC.
+
+#[GENERAL INFORMATION]#
+%
+% Please add your RegID
+
+request-type: as-number
+form-version: 1.2
+x-ncc-regid: 
+
+#[AS NUMBER USER]#
+%
+% Who will use the AS Number being requested?
+
+legal-organisation-name:      
+website-if-available: 
+
+% Is this request being sent by a sponsoring LIR on behalf of an 
+% End User? (Yes/No)
+
+end-user-of-sponsoring-lir: 
+
+% If yes, please confirm that the "End User Assignment Agreement" 
+% contains all of the elements listed in paragraph 2.0 of 
+% "Contractual Requirements for Provider Independent Resource Holders 
+% in the RIPE NCC Service Region". (Yes/No)
+
+confirmation:
+
+#[ADDRESS SPACE TO BE ANNOUNCED]#
+%
+% Which address prefix will originate from the new AS number?
+
+prefix:
+ 
+% If the address assignment is waiting for approval, please 
+% include the ticket number of the request below.
+
+pending-ticket-ID:
+
+#[PEERING CONTACTS]#
+%
+% Please list the email contact addresses of peering 
+% partners for the requested AS Number.
+
+peering:
+peering:
+
+#[SUPPLEMENTAL COMMENTS]#
+%
+% Please add more information if you think it will help us understand 
+% this request.
+
+
+
+% If you require a 16-bit AS Number instead of a 32-bit AS Number, 
+% please indicate this below and tell us why. For more information,
+% see http://www.ripe.net/news/asn-32-guide.html
+
+AS Number Type: 32-bit [change as required]
+
+Why 16-bit:
+
+#[SUPPORTING DOCUMENTATION]#
+%
+% If this request is being sent by a sponsoring LIR on behalf of 
+% an End User, please attach a copy of the signed 
+% "End User Assignment Agreement" and the company registration papers 
+% of the End User.
+% You can also attach a network diagram or other supporting documentation.
+%
+% Have you attached any files/documents to this request? (Yes/No)
+
+file-attached:
+
+#[DATABASE TEMPLATE(S)]# 
+%
+% Please complete all of the fields below
+
+aut-num:       ASNEW 
+as-name:       <add name for the AS>
+descr:         <add AS Number User name>
+org:           <add org-ID>
+import:        <specify the outgoing routing policy for the first peer>
+export:        <specify the incoming routing policy for the first peer>  
+import:        <specify the outgoing routing policy for the second peer>
+export:        <specify the incoming routing policy for the second peer>   
+admin-c:       <add nic-handle of administrative contact>
+tech-c:        <add nic-handle of technical contact>
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        <add mntner name>
+mnt-routes:    <add mntner name>
+changed:       hostmaster@ripe.net
+source:        RIPE
+
+#[END of REQUEST]#
